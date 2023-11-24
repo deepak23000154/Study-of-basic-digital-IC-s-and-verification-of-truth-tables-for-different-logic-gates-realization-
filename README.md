@@ -69,7 +69,8 @@ RTL realization
 
 Output:
 Truth table:
-![image](https://github.com/deepak23000154/Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-/assets/151951350/f9b91db1-67e6-411d-8619-fc450a8406d7)
+![image](https://github.com/deepak23000154/Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-/assets/151951350/0934684c-eb22-4b68-8369-05d90ea78f3a)
+
 
 RTL
 

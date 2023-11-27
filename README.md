@@ -60,19 +60,43 @@ Press the switches for inputs “A” and “B”. The switch is ON state when 1
 If the output is 1, then the bulb glows.
 Check all the gates following the same procedure.
 Program:
-![image](https://github.com/deepak23000154/Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-/assets/151951350/1fdfda36-d799-4ed9-89bf-746a9971287f)
+```
+module logic gates ( a,b,y1,y2,y3,y4,y5,y6,y7);
+input a,b;
+output y1,y2,y3,y4,y5,y6,y7;
+and (y1,a,b);
+or (y2,a,b);
+not (y3,a);
+xor (y4,a,b);
+nand (y5,a,b);
+nor (y6,a,b);
+xnor ( y7,a,b);
+endmodule
+```
+
+
+
+
 
 
 Logic symbol & Truthtable
 RTL realization
-![image](https://github.com/deepak23000154/Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-/assets/151951350/e295630b-fa91-49fe-b464-24a71208b020)
-
-Output:
-Truth table:
-![image](https://github.com/deepak23000154/Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-/assets/151951350/0934684c-eb22-4b68-8369-05d90ea78f3a)
+Logic gate:
+![image](https://github.com/deepak23000154/Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-/assets/151951350/28c3cd30-504f-4091-9a46-e006d2a33f4a)
 
 
-RTL
+
+
+Truth table
+![image](https://github.com/deepak23000154/Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-/assets/151951350/75473e71-93a3-451f-8661-4c18c071ccd7)
+
+Timing line
+![image](https://github.com/deepak23000154/Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-/assets/151951350/d146961b-ac7b-46dc-933c-f889262b2c1e)
+
+
+
+
+
 
 Result:
 Thus the different digital IC’s are studied and the truth table for different logic gates are verified.
